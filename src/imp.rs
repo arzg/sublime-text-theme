@@ -12,7 +12,7 @@ fn workspace_colors(t: &mut ThemeBuilder, p: &Palette) {
 }
 
 fn syntax_highlighting(t: &mut ThemeBuilder, p: &Palette) {
-    t.a([s("keyword"), s("operator")], p.red);
+    t.a([s("keyword"), s("arithmetic"), s("logical"), s("bitwise"), s("comparison")], p.red);
 
     t.a(
         [s("parameter.declaration"), s("selfKeyword"), s("typeParameter")],

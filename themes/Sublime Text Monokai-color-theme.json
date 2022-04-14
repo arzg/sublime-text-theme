@@ -7,7 +7,16 @@
         "keyword": {
             "foreground": "#F92472"
         },
-        "operator": {
+        "arithmetic": {
+            "foreground": "#F92472"
+        },
+        "logical": {
+            "foreground": "#F92472"
+        },
+        "bitwise": {
+            "foreground": "#F92472"
+        },
+        "comparison": {
             "foreground": "#F92472"
         },
         "parameter.declaration": {
