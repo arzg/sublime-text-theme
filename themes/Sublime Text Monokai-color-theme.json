@@ -9,6 +9,14 @@
         },
         "operator": {
             "foreground": "#F92472"
+        },
+        "parameter.declaration": {
+            "foreground": "#FD9621",
+            "italic": true
+        },
+        "selfKeyword": {
+            "foreground": "#FD9621",
+            "italic": true
         }
     },
     "colors": {

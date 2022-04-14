@@ -1,5 +1,5 @@
 use crate::palette::Palette;
-use mottle::dsl::{s, ThemeBuilder};
+use mottle::dsl::{s, FontStyle, ThemeBuilder};
 
 pub(crate) fn add_rules(t: &mut ThemeBuilder, p: &Palette) {
     workspace_colors(t, p);
@@ -13,4 +13,6 @@ fn workspace_colors(t: &mut ThemeBuilder, p: &Palette) {
 
 fn syntax_highlighting(t: &mut ThemeBuilder, p: &Palette) {
     t.a([s("keyword"), s("operator")], p.red);
+
+    t.a([s("parameter.declaration"), s("selfKeyword")], (p.orange, FontStyle::Italic));
 }
