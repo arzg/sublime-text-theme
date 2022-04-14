@@ -17,4 +17,21 @@ fn syntax_highlighting(t: &mut ThemeBuilder, p: &Palette) {
     t.a([s("parameter.declaration"), s("selfKeyword")], (p.orange, FontStyle::Italic));
 
     t.a([s("string")], p.yellow);
+
+    t.a(
+        [
+            s("function.declaration"),
+            s("method.declaration"),
+            s("type.declaration"),
+            s("class.declaration"),
+            s("struct.declaration"),
+            s("enum.declaration"),
+            s("interface.declaration"),
+            s("union.declaration"),
+            s("typeAlias.declaration"),
+            s("typeParameter.declaration"),
+            s("namespace.declaration"),
+        ],
+        p.green,
+    );
 }

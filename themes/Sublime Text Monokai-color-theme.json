@@ -20,6 +20,39 @@
         },
         "string": {
             "foreground": "#E7DB74"
+        },
+        "function.declaration": {
+            "foreground": "#A6E22C"
+        },
+        "method.declaration": {
+            "foreground": "#A6E22C"
+        },
+        "type.declaration": {
+            "foreground": "#A6E22C"
+        },
+        "class.declaration": {
+            "foreground": "#A6E22C"
+        },
+        "struct.declaration": {
+            "foreground": "#A6E22C"
+        },
+        "enum.declaration": {
+            "foreground": "#A6E22C"
+        },
+        "interface.declaration": {
+            "foreground": "#A6E22C"
+        },
+        "union.declaration": {
+            "foreground": "#A6E22C"
+        },
+        "typeAlias.declaration": {
+            "foreground": "#A6E22C"
+        },
+        "typeParameter.declaration": {
+            "foreground": "#A6E22C"
+        },
+        "namespace.declaration": {
+            "foreground": "#A6E22C"
         }
     },
     "colors": {
