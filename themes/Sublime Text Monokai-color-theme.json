@@ -5,8 +5,8 @@
     "semanticHighlighting": true,
     "semanticTokenColors": {},
     "colors": {
-        "editor.background": "#000000",
-        "editor.foreground": "#FFFFFF",
-        "foreground": "#FFFFFF"
+        "editor.background": "#282923",
+        "editor.foreground": "#F8F8F2",
+        "foreground": "#F8F8F2"
     }
 }

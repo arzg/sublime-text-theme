@@ -9,6 +9,6 @@ pub(crate) struct Palette {
 
 impl Palette {
     pub(crate) fn new() -> &'static Self {
-        PALETTE.get_or_init(|| Palette { bg: 0x000000, fg: 0xFFFFFF })
+        PALETTE.get_or_init(|| Palette { bg: 0x282923, fg: 0xf8f8f2 })
     }
 }
