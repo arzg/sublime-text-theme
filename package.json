@@ -1,0 +1,29 @@
+{
+  "name": "sublime-text-theme",
+  "displayName": "Sublime Text Theme",
+  "description": "Themes from Sublime Text 4 ported to VS Code",
+  "publisher": "arzg",
+  "license": "MIT",
+  "repository": {
+    "url": "https://github.com/arzg/sublime-text-theme"
+  },
+  "version": "0.1.0",
+  "engines": {
+    "vscode": "^1.41.0"
+  },
+  "categories": [
+    "Themes"
+  ],
+  "scripts": {
+    "package": "vsce package"
+  },
+  "contributes": {
+    "themes": [
+      {
+        "label": "Sublime Text Monokai",
+        "uiTheme": "vs-dark",
+        "path": "./themes/Sublime Text Monokai-color-theme.json"
+      }
+    ]
+  }
+}

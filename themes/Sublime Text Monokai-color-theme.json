@@ -1,0 +1,12 @@
+// Do not edit directly; this file is generated.
+{
+    "name": "Sublime Text Monokai",
+    "tokenColors": [],
+    "semanticHighlighting": true,
+    "semanticTokenColors": {},
+    "colors": {
+        "editor.background": "#000000",
+        "editor.foreground": "#FFFFFF",
+        "foreground": "#FFFFFF"
+    }
+}
