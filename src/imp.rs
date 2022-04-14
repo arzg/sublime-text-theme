@@ -50,4 +50,6 @@ fn syntax_highlighting(t: &mut ThemeBuilder, p: &Palette) {
         ],
         (p.blue, FontStyle::Italic),
     );
+
+    t.a([s("function"), s("method")], p.blue);
 }

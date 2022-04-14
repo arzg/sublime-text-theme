@@ -86,6 +86,12 @@
         "builtinType": {
             "foreground": "#67D8EF",
             "italic": true
+        },
+        "function": {
+            "foreground": "#67D8EF"
+        },
+        "method": {
+            "foreground": "#67D8EF"
         }
     },
     "colors": {
