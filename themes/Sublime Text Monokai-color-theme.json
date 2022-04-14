@@ -17,6 +17,9 @@
         "selfKeyword": {
             "foreground": "#FD9621",
             "italic": true
+        },
+        "string": {
+            "foreground": "#E7DB74"
         }
     },
     "colors": {

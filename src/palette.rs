@@ -7,6 +7,7 @@ pub(crate) struct Palette {
     pub(crate) fg: u32,
     pub(crate) red: u32,
     pub(crate) orange: u32,
+    pub(crate) yellow: u32,
 }
 
 impl Palette {
@@ -16,6 +17,7 @@ impl Palette {
             fg: 0xf8f8f2,
             red: 0xf92472,
             orange: 0xfd9621,
+            yellow: 0xe7db74,
         })
     }
 }

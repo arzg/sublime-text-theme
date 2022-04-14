@@ -15,4 +15,6 @@ fn syntax_highlighting(t: &mut ThemeBuilder, p: &Palette) {
     t.a([s("keyword"), s("operator")], p.red);
 
     t.a([s("parameter.declaration"), s("selfKeyword")], (p.orange, FontStyle::Italic));
+
+    t.a([s("string")], p.yellow);
 }
