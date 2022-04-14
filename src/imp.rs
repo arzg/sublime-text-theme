@@ -14,7 +14,10 @@ fn workspace_colors(t: &mut ThemeBuilder, p: &Palette) {
 fn syntax_highlighting(t: &mut ThemeBuilder, p: &Palette) {
     t.a([s("keyword"), s("operator")], p.red);
 
-    t.a([s("parameter.declaration"), s("selfKeyword")], (p.orange, FontStyle::Italic));
+    t.a(
+        [s("parameter.declaration"), s("selfKeyword"), s("typeParameter")],
+        (p.orange, FontStyle::Italic),
+    );
 
     t.a([s("string")], p.yellow);
 
@@ -29,9 +32,22 @@ fn syntax_highlighting(t: &mut ThemeBuilder, p: &Palette) {
             s("interface.declaration"),
             s("union.declaration"),
             s("typeAlias.declaration"),
-            s("typeParameter.declaration"),
             s("namespace.declaration"),
         ],
         p.green,
+    );
+
+    t.a(
+        [
+            s("type"),
+            s("class"),
+            s("struct"),
+            s("enum"),
+            s("interface"),
+            s("union"),
+            s("typeAlias"),
+            s("builtinType"),
+        ],
+        (p.blue, FontStyle::Italic),
     );
 }

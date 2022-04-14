@@ -18,6 +18,10 @@
             "foreground": "#FD9621",
             "italic": true
         },
+        "typeParameter": {
+            "foreground": "#FD9621",
+            "italic": true
+        },
         "string": {
             "foreground": "#E7DB74"
         },
@@ -48,11 +52,40 @@
         "typeAlias.declaration": {
             "foreground": "#A6E22C"
         },
-        "typeParameter.declaration": {
-            "foreground": "#A6E22C"
-        },
         "namespace.declaration": {
             "foreground": "#A6E22C"
+        },
+        "type": {
+            "foreground": "#67D8EF",
+            "italic": true
+        },
+        "class": {
+            "foreground": "#67D8EF",
+            "italic": true
+        },
+        "struct": {
+            "foreground": "#67D8EF",
+            "italic": true
+        },
+        "enum": {
+            "foreground": "#67D8EF",
+            "italic": true
+        },
+        "interface": {
+            "foreground": "#67D8EF",
+            "italic": true
+        },
+        "union": {
+            "foreground": "#67D8EF",
+            "italic": true
+        },
+        "typeAlias": {
+            "foreground": "#67D8EF",
+            "italic": true
+        },
+        "builtinType": {
+            "foreground": "#67D8EF",
+            "italic": true
         }
     },
     "colors": {

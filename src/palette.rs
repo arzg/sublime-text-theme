@@ -9,6 +9,7 @@ pub(crate) struct Palette {
     pub(crate) orange: u32,
     pub(crate) yellow: u32,
     pub(crate) green: u32,
+    pub(crate) blue: u32,
 }
 
 impl Palette {
@@ -20,6 +21,7 @@ impl Palette {
             orange: 0xfd9621,
             yellow: 0xe7db74,
             green: 0xa6e22c,
+            blue: 0x67d8ef,
         })
     }
 }
