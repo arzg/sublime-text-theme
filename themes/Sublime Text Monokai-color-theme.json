@@ -3,7 +3,14 @@
     "name": "Sublime Text Monokai",
     "tokenColors": [],
     "semanticHighlighting": true,
-    "semanticTokenColors": {},
+    "semanticTokenColors": {
+        "keyword": {
+            "foreground": "#F92472"
+        },
+        "operator": {
+            "foreground": "#F92472"
+        }
+    },
     "colors": {
         "editor.background": "#282923",
         "editor.foreground": "#F8F8F2",
