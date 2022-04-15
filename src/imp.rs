@@ -12,7 +12,11 @@ fn workspace_colors(t: &mut ThemeBuilder, p: &Palette) {
 }
 
 fn syntax_highlighting(t: &mut ThemeBuilder, p: &Palette) {
-    t.a([s("keyword"), s("arithmetic"), s("logical"), s("bitwise"), s("comparison")], p.red);
+    t.a([s("keyword")], (p.blue, FontStyle::Italic));
+    t.a(
+        [s("keyword.controlFlow"), s("arithmetic"), s("logical"), s("bitwise"), s("comparison")],
+        (p.red, FontStyle::Clear),
+    );
 
     t.a(
         [s("parameter.declaration"), s("selfKeyword"), s("typeParameter")],
@@ -37,19 +41,7 @@ fn syntax_highlighting(t: &mut ThemeBuilder, p: &Palette) {
         p.green,
     );
 
-    t.a(
-        [
-            s("type"),
-            s("class"),
-            s("struct"),
-            s("enum"),
-            s("interface"),
-            s("union"),
-            s("typeAlias"),
-            s("builtinType"),
-        ],
-        (p.blue, FontStyle::Italic),
-    );
+    t.a([s("builtinType")], (p.blue, FontStyle::Italic));
 
-    t.a([s("function"), s("method")], p.blue);
+    t.a([s("function"), s("method"), s("macro")], p.blue);
 }

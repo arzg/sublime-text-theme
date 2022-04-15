@@ -5,19 +5,38 @@
     "semanticHighlighting": true,
     "semanticTokenColors": {
         "keyword": {
-            "foreground": "#F92472"
+            "foreground": "#67D8EF",
+            "italic": true
+        },
+        "keyword.controlFlow": {
+            "foreground": "#F92472",
+            "bold": false,
+            "italic": false,
+            "underline": false
         },
         "arithmetic": {
-            "foreground": "#F92472"
+            "foreground": "#F92472",
+            "bold": false,
+            "italic": false,
+            "underline": false
         },
         "logical": {
-            "foreground": "#F92472"
+            "foreground": "#F92472",
+            "bold": false,
+            "italic": false,
+            "underline": false
         },
         "bitwise": {
-            "foreground": "#F92472"
+            "foreground": "#F92472",
+            "bold": false,
+            "italic": false,
+            "underline": false
         },
         "comparison": {
-            "foreground": "#F92472"
+            "foreground": "#F92472",
+            "bold": false,
+            "italic": false,
+            "underline": false
         },
         "parameter.declaration": {
             "foreground": "#FD9621",
@@ -64,34 +83,6 @@
         "namespace.declaration": {
             "foreground": "#A6E22C"
         },
-        "type": {
-            "foreground": "#67D8EF",
-            "italic": true
-        },
-        "class": {
-            "foreground": "#67D8EF",
-            "italic": true
-        },
-        "struct": {
-            "foreground": "#67D8EF",
-            "italic": true
-        },
-        "enum": {
-            "foreground": "#67D8EF",
-            "italic": true
-        },
-        "interface": {
-            "foreground": "#67D8EF",
-            "italic": true
-        },
-        "union": {
-            "foreground": "#67D8EF",
-            "italic": true
-        },
-        "typeAlias": {
-            "foreground": "#67D8EF",
-            "italic": true
-        },
         "builtinType": {
             "foreground": "#67D8EF",
             "italic": true
@@ -100,6 +91,9 @@
             "foreground": "#67D8EF"
         },
         "method": {
+            "foreground": "#67D8EF"
+        },
+        "macro": {
             "foreground": "#67D8EF"
         }
     },
