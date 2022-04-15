@@ -98,6 +98,18 @@
         },
         "macro": {
             "foreground": "#67D8EF"
+        },
+        "number": {
+            "foreground": "#AC80FF"
+        },
+        "boolean": {
+            "foreground": "#AC80FF"
+        },
+        "variable.constant": {
+            "foreground": "#AC80FF"
+        },
+        "variable.static": {
+            "foreground": "#AC80FF"
         }
     },
     "colors": {
