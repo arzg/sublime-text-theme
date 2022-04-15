@@ -24,6 +24,7 @@ fn syntax_highlighting(t: &mut ThemeBuilder, p: &Palette) {
     );
 
     t.a([s("string")], p.yellow);
+    t.a([s("formatSpecifier"), s("escapeSequence")], p.purple);
 
     t.a(
         [

@@ -53,6 +53,12 @@
         "string": {
             "foreground": "#E7DB74"
         },
+        "formatSpecifier": {
+            "foreground": "#AC80FF"
+        },
+        "escapeSequence": {
+            "foreground": "#AC80FF"
+        },
         "function.declaration": {
             "foreground": "#A6E22C"
         },
