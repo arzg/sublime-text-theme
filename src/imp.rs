@@ -29,6 +29,7 @@ fn syntax_highlighting(t: &mut ThemeBuilder, p: &Palette) {
         [
             s("function.declaration"),
             s("method.declaration"),
+            s("macro.declaration"),
             s("type.declaration"),
             s("class.declaration"),
             s("struct.declaration"),

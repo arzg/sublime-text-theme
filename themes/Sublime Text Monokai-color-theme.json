@@ -59,6 +59,9 @@
         "method.declaration": {
             "foreground": "#A6E22C"
         },
+        "macro.declaration": {
+            "foreground": "#A6E22C"
+        },
         "type.declaration": {
             "foreground": "#A6E22C"
         },
