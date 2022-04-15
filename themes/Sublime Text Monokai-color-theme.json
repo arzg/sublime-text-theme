@@ -116,6 +116,9 @@
         },
         "variable.static": {
             "foreground": "#AC80FF"
+        },
+        "comment": {
+            "foreground": "#74705D"
         }
     },
     "colors": {

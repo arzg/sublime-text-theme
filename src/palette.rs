@@ -5,6 +5,7 @@ static PALETTE: OnceCell<Palette> = OnceCell::new();
 pub(crate) struct Palette {
     pub(crate) bg: u32,
     pub(crate) fg: u32,
+    pub(crate) dark_fg: u32,
     pub(crate) red: u32,
     pub(crate) orange: u32,
     pub(crate) yellow: u32,
@@ -18,6 +19,7 @@ impl Palette {
         PALETTE.get_or_init(|| Palette {
             bg: 0x282923,
             fg: 0xf8f8f2,
+            dark_fg: 0x74705d,
             red: 0xf92472,
             orange: 0xfd9621,
             yellow: 0xe7db74,

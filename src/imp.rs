@@ -48,4 +48,6 @@ fn syntax_highlighting(t: &mut ThemeBuilder, p: &Palette) {
     t.a([s("function"), s("method"), s("macro")], p.blue);
 
     t.a([s("number"), s("boolean"), s("variable.constant"), s("variable.static")], p.purple);
+
+    t.a([s("comment")], p.dark_fg);
 }
